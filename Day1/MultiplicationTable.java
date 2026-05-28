@@ -5,15 +5,14 @@ public class MultiplicationTable {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
-        int n = sc.nextInt();
+        int num = sc.nextInt();
 
-        System.out.println("Multiplication Table of " + n + ":");
+        System.out.println("Multiplication Table of " + num + ":");
 
         for (int i = 1; i <= 10; i++) {
-            System.out.println(n + " x " + i + " = " + (n * i));
+            System.out.println(num + " x " + i + " = " + (num * i));
         }
 
         sc.close();
     }
-}  
-
+}
